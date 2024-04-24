@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-function handleResponseFromAPI(promise) {
+export default function handleResponseFromAPI(promise) {
   return new Promise((resolved, rejected) => {
     resolved(promise);
   })
