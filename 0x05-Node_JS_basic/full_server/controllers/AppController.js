@@ -3,7 +3,7 @@
  * @author Babatunde Ibrahim <https://github.com/ibbabs>
  */
 class AppController {
-  static getHomepage(request, response) {
+  static getHomepage(_, response) {
     response.status(200).send("Hello Holberton School!");
   }
 }
