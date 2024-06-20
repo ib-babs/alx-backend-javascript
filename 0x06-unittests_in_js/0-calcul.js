@@ -6,5 +6,5 @@
  */
 
 module.exports = function calculateNumber(a, b) {
-  return Math.round(a) + Math.rounf(b);
+  return Math.round(a) + Math.round(b);
 };
